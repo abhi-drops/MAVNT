@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MAVNT — Marvelous experiments, open source</title>
+  <meta name="description" content="MAVNT builds marvelous experiments for the average Joe and the pro. Free and open source. Taskodoro, your comfort planner, is coming soon." />
+  <meta name="theme-color" content="#e10600" />
+  <link rel="icon" href="/taskodoro/icon.png" />
+  <link rel="preload" href="/taskodoro/geomini-700.woff2" as="font" type="font/woff2" crossorigin />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <header class="top">
+    <a class="wordmark" href="#top" aria-label="MAVNT home">MAVNT</a>
+    <nav class="links" aria-label="Sections">
+      <a href="#taskodoro">Taskodoro</a>
+      <a href="#feed">Feed</a>
+      <a class="gh" href="https://github.com/mavnt" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="logo" src="/mavnt-logo.png" alt="MAVNT" width="1178" height="501" />
+      <div class="hero-copy">
+      <h1 class="tagline">
+        <span class="row"><span>We build</span></span>
+        <span class="row"><span class="red">marvelous</span></span>
+        <span class="row"><span>experiments.</span></span>
+      </h1>
+      <p class="sub">For the average Joe and the pro. Free and open source.</p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Taskodoro — your comfort planner — coming soon</span>
+        <span>Taskodoro — your comfort planner — coming soon</span>
+        <span>Taskodoro — your comfort planner — coming soon</span>
+        <span>Taskodoro — your comfort planner — coming soon</span>
+      </div>
+    </div>
+
+    <section class="project" id="taskodoro" aria-labelledby="t">
+      <div class="project-copy">
+        <span class="pill">Coming soon</span>
+        <h2 id="t">Taskodoro</h2>
+        <p class="lead">Your comfort planner. Sticky notes that move themselves from Todo to In Progress to Completed.</p>
+        <ul class="facts">
+          <li>Web and Android</li>
+          <li>No login screen</li>
+          <li>Free and open source</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="https://www.instagram.com/mavn.t/" rel="noopener">Follow for launch</a>
+          <a class="btn gh" href="https://github.com/mavnt" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+      <figure class="video">
+        <video src="/taskodoro/brag.mp4" poster="/taskodoro/brag.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Taskodoro launch teaser"></video>
+        <button class="sound" type="button" aria-pressed="false">Sound off</button>
+      </figure>
+    </section>
+
+    <section class="feed" id="feed" aria-labelledby="f">
+      <div class="profile">
+        <img class="avatar" src="/mavnt-logo.png" alt="" width="96" height="96" />
+        <div>
+          <h2 id="f">mavn.t</h2>
+          <p class="stats"><b>4</b> posts &nbsp; <b>26</b> followers</p>
+          <p class="bio">We build marvelous experiments. For the average Joe and the pro.</p>
+        </div>
+        <a class="btn primary follow" href="https://www.instagram.com/mavn.t/" rel="noopener">Follow</a>
+      </div>
+      <ul class="grid" id="grid"></ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>MAVNT — we build marvelous experiments.</span>
+    <a href="https://www.instagram.com/mavn.t/" rel="noopener">Instagram</a>
+  </footer>
+
+  <div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Post viewer" hidden>
+    <button class="lb-close" type="button" aria-label="Close">Close</button>
+    <div class="lb-body">
+      <div class="lb-stage">
+        <button class="lb-nav prev" type="button" aria-label="Previous slide">‹</button>
+        <img class="lb-img" alt="" />
+        <button class="lb-nav next" type="button" aria-label="Next slide">›</button>
+        <div class="lb-dots"></div>
+      </div>
+      <aside class="lb-side">
+        <div class="lb-head"><img src="/mavnt-logo.png" alt="" width="40" height="40" /><b>mavn.t</b></div>
+        <p class="lb-caption"></p>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "how-taskodoro-happened",
+    "title": "One day I randomly thought: what is the most recreated software tool in the world?",
+    "caption": "One day I randomly thought: what is the most recreated software tool in the world?\n\nA todo app. But what if we push it to the extreme?\n\nThen Taskodoro happened.\n\nFollow to find out more about the journey. Coming soon for web + Android.",
+    "slides": [
+      "/taskodoro/posts/how-taskodoro-happened/01-one-day.png",
+      "/taskodoro/posts/how-taskodoro-happened/02-the-question.png",
+      "/taskodoro/posts/how-taskodoro-happened/03-a-todo-app.png",
+      "/taskodoro/posts/how-taskodoro-happened/04-the-extreme.png",
+      "/taskodoro/posts/how-taskodoro-happened/05-taskodoro-happened.png",
+      "/taskodoro/posts/how-taskodoro-happened/06-follow.png"
+    ]
+  },
+  {
+    "slug": "why-the-name-taskodoro",
+    "title": "Why the name Taskodoro?",
+    "caption": "Why the name Taskodoro?\n\nMy first idea was to make a task + pomodoro app, so I named it Taskodoro. But on the second draft a complete rewrite and redesign happened.\n\nThe focus shifted to a simpler design: you get a simple app, and figure out more from the Apps and Settings tabs. So Pomodoro went from the main feature to a side feature in the Apps section. Then I forgot to build it till now… 😅\n\nWhat do you think? Do we really need a Pomodoro feature for the sake of the name Taskodoro… 🙂 Or do I have to change the app name? 😂\n\nComment your suggestions.\n\nFollow to find out more about the journey. Coming soon on web + Android. Free and open source.",
+    "slides": [
+      "/taskodoro/posts/why-the-name-taskodoro/01-cover.png",
+      "/taskodoro/posts/why-the-name-taskodoro/02-first-idea.png",
+      "/taskodoro/posts/why-the-name-taskodoro/03-named-it.png",
+      "/taskodoro/posts/why-the-name-taskodoro/04-rewrite.png",
+      "/taskodoro/posts/why-the-name-taskodoro/05-focus-shifted.png",
+      "/taskodoro/posts/why-the-name-taskodoro/06-side-feature.png",
+      "/taskodoro/posts/why-the-name-taskodoro/07-what-do-you-think.png",
+      "/taskodoro/posts/why-the-name-taskodoro/08-follow.png"
+    ]
+  },
+  {
+    "slug": "taskodoro-ideology",
+    "title": "Taskodoro ideology",
+    "caption": "Taskodoro ideology\n\n1. Built for both simple & advanced users.\n2. Use it right after your first launch, and figure out the advanced features later, as you need them.\n3. Simple, unique aesthetic features that make life easier and are pleasing to the eye.\n\nTaskodoro: your comfort planner.",
+    "slides": [
+      "/taskodoro/posts/taskodoro-ideology/01-cover.png",
+      "/taskodoro/posts/taskodoro-ideology/02-simple-and-advanced.png",
+      "/taskodoro/posts/taskodoro-ideology/03-first-launch.png",
+      "/taskodoro/posts/taskodoro-ideology/04-aesthetic.png",
+      "/taskodoro/posts/taskodoro-ideology/05-comfort-planner.png"
+    ]
+  },
+  {
+    "slug": "taskodoro-brand-card",
+    "title": "Taskodoro: your comfort planner.",
+    "caption": "Taskodoro: your comfort planner.",
+    "slides": [
+      "/taskodoro/posts/taskodoro-brand-card/01-taskodoro.png"
+    ]
+  }
+]
