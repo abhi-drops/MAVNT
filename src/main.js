@@ -60,14 +60,27 @@ addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') show(slide + 1);
 });
 
-/* ---------- video sound toggle ---------- */
+/* ---------- video sound ---------- */
 const vid = document.querySelector('.video video');
 const snd = document.querySelector('.sound');
-snd.addEventListener('click', () => {
-  vid.muted = !vid.muted;
+const syncSound = () => {
   snd.textContent = vid.muted ? 'Sound off' : 'Sound on';
   snd.setAttribute('aria-pressed', String(!vid.muted));
+};
+vid.addEventListener('volumechange', syncSound);
+snd.addEventListener('click', () => { vid.muted = !vid.muted; });
+
+// Sound on by default. Browsers block audible autoplay without a gesture, so
+// fall back to muted playback and unmute on the first interaction.
+vid.muted = false;
+vid.play().catch(() => {
+  vid.muted = true;
+  vid.play().catch(() => {});
+  const unmute = () => { vid.muted = false; };
+  addEventListener('pointerdown', unmute, { once: true });
+  addEventListener('keydown', unmute, { once: true });
 });
+syncSound();
 
 /* ---------- motion ---------- */
 // base always matches, so the handler runs everywhere and re-runs when a condition flips.
