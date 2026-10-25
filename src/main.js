@@ -1,5 +1,8 @@
 import './style.css';
+import { inject } from '@vercel/analytics';
 import { gsap } from 'gsap';
+
+inject();
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import posts from './posts.json';
 
